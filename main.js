@@ -33,7 +33,7 @@ const FOOTER = ` <div class="fat-btn">
                             <img src="assets/logo.png" style="height: 120px;" alt="logo">
                         </a>
                         <ul class="footer-contact-info">
-                            <li><span>Whatsapp:</span> <a href="tel:${DATA.SOCIAL.whatsapp}">${DATA.SOCIAL.whatsapp}</a></li>
+                            <li><span>Whatsapp:</span> <a href="tel:${DATA.SOCIAL.whatsapp}">322 446 3357</a></li>
                             <li><span>Email:</span> <a href="mailto:info@mallasprotec"><span
                                         class="__cf_email__">info@mallasprotec</span></a>
                             </li>
@@ -79,9 +79,9 @@ const HEADER = `<div class="top-header-area">
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <ul>
-                        <li><a href="#" target="_blank"><i class='bx bxl-facebook'></i></a></li>
-                        <li><a href="#" target="_blank"><i class='bx bxl-instagram'></i></a></li>
-                        <li><a href="#" target="_blank"><i class='bx bxl-whatsapp'></i></a></li>
+                        <li><a href="${DATA.SOCIAL.facebook}" target="_blank"><i class='bx bxl-facebook'></i></a></li>
+                        <li><a href="${DATA.SOCIAL.instagram}" target="_blank"><i class='bx bxl-instagram'></i></a></li>
+                        <li><a href="${DATA.SOCIAL.whatsapp}" target="_blank"><i class='bx bxl-whatsapp'></i></a></li>
                     </ul>
                 </div>
             </div>
